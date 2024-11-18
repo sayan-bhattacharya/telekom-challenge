@@ -1,0 +1,72 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-icon {
+    color: #d81b60; /* Telekom magenta color */
+}
+
+.logo-text {
+    color: #333;
+}
+
+.navbar-link {
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #ffffff;
+    background-color: #d81b60;
+}
+
+.navbar-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button {
+    background-color: #d81b60;
+    color: #ffffff;
+}
+
+.login-button:hover {
+    background-color: #c2185b;
+}
+
+.signup-button {
+    background-color: #1976d2;
+    color: #ffffff;
+}
+
+.signup-button:hover {
+    background-color: #1565c0;
+}
+
+.logout-button {
+    background-color: #d81b60;
+    color: #ffffff;
+}
+
+.logout-button:hover {
+    background-color: #c2185b;
+}

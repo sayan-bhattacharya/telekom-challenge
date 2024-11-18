@@ -1,0 +1,35 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 50vh;
+    background: linear-gradient(45deg, #d81b60, #ff80ab);
+    opacity: 0.2;
+    border-radius: 50%;
+    transform: translateY(-30%);
+    animation: floatWave 20s linear infinite;
+}
+
+@keyframes floatWave {
+    0%, 100% { transform: translateY(-30%); }
+    50% { transform: translateY(-40%); }
+}
+
+.particle {
+    position: absolute;
+    background-color: rgba(216, 27, 96, 0.5);
+    border-radius: 50%;
+}
+
+.particle-1 { width: 80px; height: 80px; top: 10%; left: 10%; }
+.particle-2 { width: 60px; height: 60px; bottom: 20%; right: 20%; }
+.particle-3 { width: 100px; height: 100px; bottom: 10%; left: 50%; }

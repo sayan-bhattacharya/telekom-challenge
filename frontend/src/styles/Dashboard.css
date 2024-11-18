@@ -1,0 +1,125 @@
+/* src/styles/Dashboard.css */
+
+
+
+.dashboard-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.loading-message,
+.error-message,
+.empty-message {
+    text-align: center;
+    color: #888;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.application-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+}
+
+.applicant-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d81b60;
+    margin-bottom: 10px;
+}
+
+.applicant-info,
+.submission-date {
+    color: #555;
+    font-weight: 500;
+}
+
+.view-link {
+    color: #d81b60;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.view-link:hover {
+    color: #c2185b;
+}
+
+.personality-metrics {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f4f7fa;
+    border-radius: 8px;
+}
+
+.personality-metrics h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.personality-metrics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personality-metrics li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.applications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.application-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.application-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.application-card a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.application-card a:hover {
+    text-decoration: underline;
+}
+
+.summary, .transcription {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #555;
+}
